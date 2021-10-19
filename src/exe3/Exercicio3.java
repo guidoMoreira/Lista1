@@ -1,4 +1,4 @@
-package exe1;
+package exe3;
 
 public class Exercicio3 {
 
