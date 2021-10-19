@@ -6,5 +6,7 @@ public class Principal {
         int digt = 0;
         Descobrir desc = new Descobrir();
         desc.ValorDigitado();
+
+        //Exercicio 6
     }
 }
