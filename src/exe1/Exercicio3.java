@@ -12,6 +12,10 @@ public class Exercicio3 {
     public Exercicio3(String tipo, String placa, double horaIn, double horaOut){
         this.Estacionou(tipo,placa,horaIn,horaOut);
     }
+
+    public static void main(String[] args) {
+    }
+
     public void Estacionou(String tipo, String placa, double horaIn, double horaOut){
         this.tipVeiculo = tipo;
         this.placa = placa;
