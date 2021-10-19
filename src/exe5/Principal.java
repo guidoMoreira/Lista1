@@ -3,10 +3,14 @@ package exe5;
 //Exercicio 5
 public class Principal {
     public static void main(String[] args){
+        //Classe do Exercicio 6
+        Exercicio6 contador;
+
         int digt = 0;
         Descobrir desc = new Descobrir();
-        desc.ValorDigitado();
 
-        //Exercicio 6
+        //Classe com o registro do contador copiada para classe principal
+        contador = desc.ValorDigitado();
+        contador.print();
     }
 }
