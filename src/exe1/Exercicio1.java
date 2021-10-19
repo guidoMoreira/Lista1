@@ -56,6 +56,8 @@ public class Exercicio1{
             }
             System.out.println("------------\n");
         }
+        Exercicio2 funcionalidade = new Exercicio2();
+        funcionalidade.func();
     }
     public static void Abs(){
         System.out.println("Resultado:" + Math.abs(x));
@@ -88,4 +90,3 @@ public class Exercicio1{
         System.out.println("Resultado:" + Math.sqrt(x));
     }
 }
-//Exercicio 2
