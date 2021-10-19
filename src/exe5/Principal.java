@@ -7,6 +7,6 @@ public class Principal {
         Descobrir desc = new Descobrir();
         desc.ValorDigitado();
 
-        //Exercicio6
+        //Exercicio 6
     }
 }
