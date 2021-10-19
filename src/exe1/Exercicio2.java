@@ -1,5 +1,6 @@
 package exe1;
 
+
 public class Exercicio2 {
     public Exercicio2(){
     }
