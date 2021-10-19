@@ -1,23 +1,17 @@
 package exe3;
 
-public class Exercicio3 {
-
-    private String tipVeiculo;
+public class Vaga {
+    private static String tipVeiculo;
     private String placa;
     private double horaIn;
     private double horaOut;
-
-    public Exercicio3 (){
+    public Vaga(){
     }
-    public Exercicio3(String tipo, String placa, double horaIn, double horaOut){
-        this.Estacionou(tipo,placa,horaIn,horaOut);
+    public Vaga(String tipo, String placa, double horaIn, double horaOut){
+        this.Cadastrar(tipo,placa,horaIn,horaOut);
     }
-
-    public static void main(String[] args) {
-    }
-
-    public void Estacionou(String tipo, String placa, double horaIn, double horaOut){
-        this.tipVeiculo = tipo;
+    public void Cadastrar(String tipo, String placa, double horaIn, double horaOut){
+        tipVeiculo = tipo;
         this.placa = placa;
         this.horaIn = horaIn;
         this.horaOut = horaOut;
@@ -31,5 +25,8 @@ public class Exercicio3 {
         }else{
             return 20;
         }
+    }
+    public String gettipo(){
+        return tipVeiculo;
     }
 }
