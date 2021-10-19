@@ -11,6 +11,8 @@ public class Principal {
 
         //Classe com o registro do contador copiada para classe principal
         contador = desc.ValorDigitado();
+
+        //Imprime numero de tentativas usadas
         contador.print();
     }
 }

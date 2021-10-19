@@ -31,6 +31,7 @@ public class Descobrir {
         cont.IncreaseTentat();
         System.out.println("Correto! o valor aleatorio era: " + this.randval);
         System.out.println(cont.NumTentativas);
+
         return cont;
     }
 }
