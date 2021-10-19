@@ -56,8 +56,29 @@ public class Exercicio1{
             }
             System.out.println("------------\n");
         }
-        Exercicio2 funcionalidade = new Exercicio2();
-        funcionalidade.func();
+        choice = 0;
+        Exercicio2 OperacoesExtra = new Exercicio2(x,y);
+        while(choice != 5){
+            System.out.println("Qual operação deseja realizar?\n1-Soma de x com y\n2-subtração de x por y\n3-Multiplicação de x e y\n4-Divisão de x por y\n5-Sair do programa");
+            choice = num.nextInt();
+            switch(choice) {
+                case 1:
+                    System.out.println(OperacoesExtra.Som());
+                    break;
+                case 2:
+                    System.out.println(OperacoesExtra.Sub());
+                    break;
+                case 3:
+                    System.out.println(OperacoesExtra.Mult());
+                    break;
+                case 4:
+                    System.out.println(OperacoesExtra.Div());
+                    break;
+                default:
+                    // code block
+            }
+            System.out.println("------------\n");
+    }
     }
     public static void Abs(){
         System.out.println("Resultado:" + Math.abs(x));
