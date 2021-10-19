@@ -9,7 +9,7 @@ public class Math {
     }
 
     public float Abs(){
-        return this.x / this.y;
+        return this.x + this.y;
     }
 
 }
