@@ -113,7 +113,7 @@ public class Principal {
     }
 }
 
-public class Estudante extends Nota {
+class Estudante extends Nota {
 
     private String nome;
     private String cpf;
@@ -144,7 +144,7 @@ public class Estudante extends Nota {
     }
 }
 
-public class Nota {
+class Nota {
 
     public float nota;
     public float nota2;
@@ -182,7 +182,7 @@ public class Nota {
     }
 }
 
-public class Disciplina {
+class Disciplina {
 
     public String nome_professor;
     public String nome;
@@ -242,7 +242,7 @@ public class Disciplina {
     }
 }
 
-public class Periodo {
+class Periodo {
     public int periodo;
 
     public Periodo() {
@@ -282,7 +282,7 @@ public class Periodo {
     }
 
 }
-public class Cidade {
+class Cidade {
     private String CidadeMora;
     private String CidadeCampus;
     public Cidade(String CidadeMora, String CidadeCampus){
