@@ -16,6 +16,7 @@ public class Principal {
             frame.pack();
             frame.setVisible(true);
 
+            //Pausa de meio segundo
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
