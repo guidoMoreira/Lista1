@@ -14,4 +14,10 @@ public class Exercicio8 {
         Lim_ticks = scan.nextInt();
         return Lim_ticks;
     }
+    public int getTamanhovariarcao(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o valor maximo que todos deverão exceder: ");
+        int tam = scan.nextInt();
+        return tam;
+    }
 }

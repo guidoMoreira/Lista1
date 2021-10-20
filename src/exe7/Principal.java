@@ -12,9 +12,11 @@ public class Principal {
         Exercicio8 LimitadorTicks = new Exercicio8();
         int maxTicks = LimitadorTicks.getLim_ticks();
 
+        //Tamanho até mudar
+        int tam = LimitadorTicks.getTamanhovariarcao();
         for(int i = 0; i < maxTicks; i++){
             pend.C++;
-            final JLabel label = new JLabel("A["+pend.A+",30] | B["+pend.B+",30] Z C["+pend.C+",30]");
+            final JLabel label = new JLabel("A["+pend.A+","+tam+"] | B["+pend.B+","+tam+"] Z C["+pend.C+","+tam+"]");
             frame.getContentPane().add(label);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.pack();
@@ -27,11 +29,11 @@ public class Principal {
                 e.printStackTrace();
             }
             frame.getContentPane().remove(label);
-            if(pend.C == 30){
+            if(pend.C == tam){
                 pend.C30();
-            }if(pend.B == 30){
+            }if(pend.B == tam){
                 pend.B30();
-            }if(pend.A == 30){
+            }if(pend.A == tam){
                 pend.A30();
             }
         }
