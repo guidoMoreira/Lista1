@@ -8,7 +8,11 @@ public class Principal {
         Pendulo pend = new Pendulo();
         JFrame frame = new JFrame("Pendulo");
 
-        for(int i = 0; i < 10000; i++){
+        //Limite de ticks exercicio 8
+        Exercicio8 LimitadorTicks = new Exercicio8();
+        int maxTicks = LimitadorTicks.getLim_ticks();
+
+        for(int i = 0; i < maxTicks; i++){
             pend.C++;
             final JLabel label = new JLabel("A["+pend.A+",30] | B["+pend.B+",30] Z C["+pend.C+",30]");
             frame.getContentPane().add(label);
